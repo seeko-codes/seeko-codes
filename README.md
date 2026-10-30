@@ -14,8 +14,8 @@ My focus is **agentic engineering**: designing the context, tools, and verificat
     <td width="50%" valign="top"><a href="https://web-kohl-three-51.vercel.app/learn"><img src="assets/etude.png" alt="Étude's live learning graph and a personalized practice step for Twinkle, Twinkle, Little Star." /></a></td>
   </tr>
   <tr>
-    <td><b>Hacky</b><br />Hackathons, built just for you</td>
-    <td><b>Étude</b><br />The piano tutor that knows you better than yourself</td>
+    <td valign="top"><b>Hacky</b><br />Hackathons, built just for you</td>
+    <td valign="top"><b>Étude</b><br />The piano tutor that knows you better than yourself</td>
   </tr>
 </table>
 
