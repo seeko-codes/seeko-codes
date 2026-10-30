@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/terminal-mobile.svg" />
-  <img src="assets/terminal.svg" width="100%" alt="Andrés Araque. Major: Mathematics at UCF. Projects: Ultralearn, Hacky, Étude, Donna, content-factory, and seeko-stack. I'm Andrés, a Mathematics student at UCF building ambitious products with AI agents. My focus is agentic engineering: designing the context, tools, and verification loops that let agents deliver substantial software quickly. I care just as much about the result: a clear purpose, a restrained interface, and details that feel finished." />
+  <img src="assets/terminal.svg" width="100%" alt="Andrés Araque. Major: Mathematics at UCF. Projects: Ultralearn, Hacky, Étude, Donna, content-factory, and seeko-stack. I'm Andrés, a Mathematics student at UCF building ambitious products with AI agents. My focus is agentic engineering: designing the context, tools, and verification loops that let agents deliver substantial software quickly without lowering the bar." />
 </picture>
 
 <p><samp><a href="resume/Andres_Araque_Resume.pdf">Résumé ↗</a> · <a href="mailto:pipe.araque@gmail.com">Email</a></samp></p>
@@ -42,7 +42,7 @@ Tell Donna what you want to do; she helps you meet the right people at UCF. I'm 
 
 ### Currently building: Ultralearn
 
-**Know where you stand. Know what to do next.**
+**Learn anything incredibly fast, and never forget it.**
 
 I'm building a **stateful tutor for any learning domain, starting with SAT math**. The goal is to generalize the knowledge-graph approach explored in Étude: map a domain, track what each learner knows, and give the agent persistent context to decide what to teach and when to review.
 
