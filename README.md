@@ -6,7 +6,7 @@ My focus is **agentic engineering**: designing the context, tools, and verificat
 
 **[Résumé ↗](resume/Andres_Araque_Resume.pdf) · [Email](mailto:pipe.araque@gmail.com)**
 
-### Selected work
+### Projects
 
 <table>
   <tr>
@@ -51,9 +51,8 @@ An adaptive SAT math tutor that turns a learner's knowledge into one clear next 
 
 ### The systems behind the products
 
-- **[seeko-stack](https://github.com/seeko-codes/seeko-stack)** - my portable distribution of Firstmate, with outcome-focused workflows, bounded loops, and an agent-assisted setup. Built on Kun Chen's Firstmate ecosystem.
-- **[Turn to Life](https://github.com/seeko-codes/turn-to-life)** - a reusable, purpose-first agent workflow: clarify the goal, build against it, verify the result, and preserve what the work taught.
-- **[Skemify](https://github.com/seeko-codes/skemify-skill)** - turn documents and records into an evidence-backed knowledge tree that an agent can navigate.
+- **[seeko-stack](https://github.com/seeko-codes/seeko-stack)** - my current toolkit for coordinating coding agents, preserving context, and verifying changes. It replaces Turn to Life and builds on Kun Chen's Firstmate ecosystem.
+- **[Skemify](https://github.com/seeko-codes/skemify-skill)** - an experimental tool for building semantic ontologies of domains.
 
 **How I work:** Claude Code and Codex · focused parallel workers · durable specs and handoffs · context architecture · Git worktrees · reusable skills and hooks · browser-based verification · tests and CI. Findings feed back into the tools and instructions for the next run.
 
