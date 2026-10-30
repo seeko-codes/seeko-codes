@@ -14,22 +14,22 @@ My focus is **agentic engineering**: designing the context, tools, and verificat
     <td width="50%" valign="top"><a href="https://web-kohl-three-51.vercel.app/learn"><img src="assets/etude.png" alt="Étude's live learning graph and a personalized practice step for Twinkle, Twinkle, Little Star." /></a></td>
   </tr>
   <tr>
-    <td><b>Hacky</b> · Focused context. Finished interactions.</td>
-    <td><b>Étude</b> · Learner state. A useful next step.</td>
+    <td><b>Hacky</b><br />Hackathons, built just for you</td>
+    <td><b>Étude</b><br />The piano tutor that knows you better than yourself</td>
   </tr>
 </table>
 
 #### [Hacky](https://github.com/seeko-codes/Hacky) · ~32 hours · Knight Hacks IX
 
-A conversation that finds the right teammate or mentor. Focused profile context and evidence-backed matches, expressed through a custom knit mascot, a native-feeling React interface, and carefully paced interactions.
+Your hackathon, personalized. Hacky brings Knight Hacks' people, events, sponsors, and deadlines into one conversation. A Gemini agent navigates that context to find teammates and mentors who fit your goals, recommend events and sponsor opportunities for your project, and answer the practical questions of the weekend. Built-in messaging turns a promising match into a conversation.
 
-I shaped the product and interface and used coding agents to build the prototype, React app, and conversational onboarding. A three-person team built the full experience. **[Try Hacky ↗](https://mlhacky.com)**
+I shaped the product and interface and used coding agents to build the prototype, React app, and conversational onboarding. A custom knit companion and a focused interface make the experience feel personal. Built by a three-person team. **[Try Hacky ↗](https://mlhacky.com)**
 
 #### [Étude](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days) · ~44 hours · Gator Hack V finalist
 
-A piano tutor and rhythm game played on a real 88-key piano. **I owned the entire learning architecture:** a 207-skill graph, evidence-driven mastery model, diagnostic, and context that guides the next practice session.
+Sit at your piano. Étude takes care of what to practice. It chooses between learning something new and retrieving what you've learned, across both playing and music theory. A personal mastery graph guides it toward your gaps while scheduling review of earlier skills. Connected to a **real 88-key piano**, it turns that plan into practice on the instrument itself.
 
-The planner sees a relevant skill shortlist with learner evidence and goals. Code validates its choices and supplies a fallback. I directed the learning build through fresh worker sessions, focused briefs, separate PRs, browser checks, and CI. Built with Eric Zhang and Sharan Santharam. **[Explore Étude ↗](https://web-kohl-three-51.vercel.app/learn)**
+**I owned the entire learning architecture:** the 207-skill graph, evidence-driven mastery model, diagnostic, and planner context. Built with Eric Zhang and Sharan Santharam through agentic development. **[Explore Étude ↗](https://web-kohl-three-51.vercel.app/learn)**
 
 #### [Donna](https://apps.apple.com/us/app/donna-social-intelligence/id6760481634) · On the App Store
 
@@ -47,7 +47,7 @@ Tell Donna what you want to do; she helps you meet the right people at UCF. I'm 
 
 I'm building a **stateful tutor for any learning domain, starting with SAT math**. The goal is to generalize the knowledge-graph approach explored in Étude: map a domain, track what each learner knows, and give the agent persistent context to decide what to teach and when to review.
 
-Alongside the app, I'm building **[content-factory](https://github.com/seeko-codes/content-factory)**, an agent-driven pipeline for creating educational videos, from reference research and narration to export verification. It supports the visual math content for **[@ultralearns](https://www.instagram.com/ultralearns/)**.
+Alongside the app, I'm building **[content-factory](https://github.com/seeko-codes/content-factory)**, an agent-driven content pipeline that learns from its own performance. It creates the visual math content for **[@ultralearns](https://www.instagram.com/ultralearns/)**.
 
 **In development.** The product's home will be **ultralearn.xyz**.
 

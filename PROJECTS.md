@@ -2,11 +2,11 @@
 
 I build the systems that help agents do useful work, and the interfaces that make that work worth using. These projects show both sides: agents inside the product and agents building the product.
 
-## Hacky: a focused agent, a finished experience
+## Hacky: Hackathons, built just for you
 
 **Knight Hacks IX · three-person team · approximately 32-hour repository window**
 
-Hacky turns a crowded hackathon into a conversation about who you need. It searches attendee data, explains why someone fits, and helps you start the introduction.
+Hacky personalizes the hackathon around your goals. The team gathered Knight Hacks' event information into navigable context for a Gemini agent: people, schedules, sponsors, rules, and deadlines. Through chat, it finds relevant teammates and mentors, recommends events and sponsor opportunities for your project, and helps you keep track of the weekend. Built-in messaging lets you talk with teammates and potential collaborators.
 
 My work shaped the product direction, prototype, React interface, and conversational onboarding through agentic development. The experience is deliberately focused: a knit companion, answer chips, evidence-backed cards, and a human choosing when to send.
 
@@ -20,9 +20,11 @@ Ryan owned the backend and matching implementation. The complete application is 
 
 **[Live product](https://mlhacky.com) · [Source](https://github.com/seeko-codes/Hacky)**
 
-## Étude: learner state becomes agent context
+## Étude: The piano tutor that knows you better than yourself
 
 **Gator Hack V finalist · three-person team · approximately 44-hour repository window**
+
+Étude carries the study-management burden so the learner can sit down and play. It makes two connected choices: learn new material or retrieve earlier learning; practice piano performance or work on music theory. The aim is to target useful gaps while keeping earlier learning available through spaced retrieval. Practice happens on a connected real 88-key piano.
 
 I owned the entire learning architecture. A tutor needs to know what a learner knows; Étude makes that knowledge explicit and usable by an agent. Its [curriculum](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/tree/main/web/src/learn/frontend/mastery/curriculum) contains 207 skills and 481 links across pitch, rhythm, keys, chords, expression, and pieces.
 
@@ -50,7 +52,7 @@ I'm part of the founding development team, working across UI and backend logic. 
 
 I'm building a stateful tutor for any learning domain, starting with SAT math. The aim is to generalize the learning architecture explored in Étude: represent a domain as a knowledge graph, update a learner's mastery from evidence, and use that persistent state to guide what comes next. The app is in development; support for other domains is the broader goal.
 
-The companion **[content-factory](https://github.com/seeko-codes/content-factory)** pipeline creates educational videos through agent-driven reference research, narration, and export verification. It supports the visual math explanations on **[@ultralearns](https://www.instagram.com/ultralearns/)**.
+The companion **[content-factory](https://github.com/seeko-codes/content-factory)** is an agent-driven content pipeline that learns from its own performance. It connects production and export review with audience-performance analysis and human-approved improvements to future content. It supports the visual math explanations on **[@ultralearns](https://www.instagram.com/ultralearns/)**.
 
 ---
 
