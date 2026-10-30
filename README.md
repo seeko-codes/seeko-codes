@@ -45,16 +45,26 @@ Tell Donna what you want to do; she helps you meet the right people at UCF. I'm 
 
 **Know where you stand. Know what to do next.**
 
-An adaptive SAT math tutor that turns a learner's knowledge into one clear next step. It carries forward Étude's central idea: persistent learner state gives the agent the context to decide what to teach and when to review. Living ink becomes the graph, the questions, and the work itself.
+I'm building a **stateful tutor for any learning domain, starting with SAT math**. The goal is to generalize the knowledge-graph approach explored in Étude: map a domain, track what each learner knows, and give the agent persistent context to decide what to teach and when to review.
 
-**In development.** Follow the build and visual math explanations at **[@ultralearns](https://www.instagram.com/ultralearns/)**. The product's home will be **ultralearn.xyz**.
+Alongside the app, I'm building **[content-factory](https://github.com/seeko-codes/content-factory)**, an agent-driven pipeline for creating educational videos, from reference research and narration to export verification. It supports the visual math content for **[@ultralearns](https://www.instagram.com/ultralearns/)**.
+
+**In development.** The product's home will be **ultralearn.xyz**.
 
 ### The systems behind the products
 
 - **[seeko-stack](https://github.com/seeko-codes/seeko-stack)** - my current toolkit for coordinating coding agents, preserving context, and verifying changes. It replaces Turn to Life and builds on Kun Chen's Firstmate ecosystem.
 - **[Skemify](https://github.com/seeko-codes/skemify-skill)** - an experimental tool for building semantic ontologies of domains.
 
-**How I work:** Claude Code and Codex · focused parallel workers · durable specs and handoffs · context architecture · Git worktrees · reusable skills and hooks · browser-based verification · tests and CI. Findings feed back into the tools and instructions for the next run.
+### How I work
+
+As execution gets cheaper, the differentiator is judgment: understanding the domain, choosing the right problem, and knowing what good looks like.
+
+- **Clarity before execution.** Define the intended outcome, how the parts fit together, and the quality bar. Make that concrete enough to test, then ship and iterate as the work reveals more.
+- **Context is architecture.** Keep working context small and task-relevant. Store decisions and knowledge durably, with clear entry points and progressive disclosure so agents can retrieve what they need when they need it.
+- **Focused agents, explicit contracts.** Give each worker a bounded task, relevant context, appropriate tools, and a clear definition of done. The orchestrator coordinates the work without carrying every implementation detail.
+- **Parallelize around dependencies.** Map what must happen first, then split independent work into parallel batches. Reassess after each batch; concurrency should increase verified throughput.
+- **Close the quality loop.** Check integrated behavior against the original goal through review, tests, and real product use. Iterate until it meets the bar, then preserve the findings in the context and tools for the next run.
 
 **Product stack:** TypeScript · React · Next.js · Vite · Electron · Python · PostgreSQL · Playwright · Vitest.
 

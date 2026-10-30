@@ -30,7 +30,7 @@ I owned the entire learning architecture. A tutor needs to know what a learner k
 - **State selects context.** The planner receives at most 20 relevant candidates, including belief, evidence counts, mastered connections, due checks, and goal songs. It chooses a small practice session from that shortlist. [Candidates](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/web/src/learn/frontend/mastery/decide/candidates.ts), [prompt](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/web/src/learn/frontend/mastery/decide/prompt.ts).
 - **Code checks the decision.** Runtime validation rejects invalid plans, limits new material, and keeps activity selection consistent with learner state. Missing credentials, model failures, and invalid replies have a deterministic fallback. [Validation](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/web/src/learn/frontend/mastery/decide/validate.ts), [fallback](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/web/src/learn/frontend/mastery/decide/index.ts).
 
-Étude schedules cold checks at increasing intervals. Its shipped mastery engine does not continuously decay belief with time. Ultralearn carries this work forward into a broader SAT math learning system.
+Étude schedules cold checks at increasing intervals. Its shipped mastery engine does not continuously decay belief with time. Ultralearn carries this work forward toward a stateful tutor for any learning domain, starting with SAT math.
 
 The development process used the same principle: keep state outside a single conversation, and give each agent the context its task needs. In my learning lane, a talking agent broke the work into focused briefs for fresh Claude Code worker sessions. Workers delivered separate PRs; specs, handoffs, browser checks, and CI supported integration. The repository documents this process and credits my tutor work. [Development workflow](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/docs/devpost.md), [project story](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/docs/story.md).
 
@@ -48,9 +48,9 @@ I'm part of the founding development team, working across UI and backend logic. 
 
 ## Ultralearn: the continuing education thread
 
-I'm building an adaptive SAT math tutor around a personal mastery graph, an agent-chosen next step, and ink that becomes the teaching material itself. This continues the learning architecture explored in Étude. The app is in development; the visual math explanations on Instagram are a companion effort.
+I'm building a stateful tutor for any learning domain, starting with SAT math. The aim is to generalize the learning architecture explored in Étude: represent a domain as a knowledge graph, update a learner's mastery from evidence, and use that persistent state to guide what comes next. The app is in development; support for other domains is the broader goal.
 
-**[Follow @ultralearns](https://www.instagram.com/ultralearns/)**
+The companion **[content-factory](https://github.com/seeko-codes/content-factory)** pipeline creates educational videos through agent-driven reference research, narration, and export verification. It supports the visual math explanations on **[@ultralearns](https://www.instagram.com/ultralearns/)**.
 
 ---
 
