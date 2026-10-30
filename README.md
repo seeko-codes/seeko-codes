@@ -1,4 +1,7 @@
-<img src="assets/header.svg" width="100%" alt="Andrés Araque. I build polished products and the agent systems that ship them." />
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/header-mobile.svg" />
+  <img src="assets/header.svg" width="100%" alt="Andrés Araque. Agentic engineering. Mathematics at UCF. Building Ultralearn and content-factory. Founding development team at Donna. Tooling: seeko-stack." />
+</picture>
 
 I'm Andrés, a Mathematics student at **UCF** building ambitious products with AI agents.
 
