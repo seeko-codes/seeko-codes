@@ -2,7 +2,7 @@
 
 I'm a Mathematics student at **UCF**, building at the intersection of AI agents, product design, and learning.
 
-My focus is **agentic engineering**: turning a product goal into a software factory with focused agent context, isolated worktrees, browser verification, and CI gates. The system keeps what each build teaches it, so the next run starts better informed.
+My focus is **agentic engineering**: giving agents the right tools and context, then turning a product goal into a software factory with isolated worktrees, browser verification, and CI gates. The system keeps what each build teaches it, so the next run starts better informed.
 
 ### Selected work
 
@@ -10,7 +10,7 @@ My focus is **agentic engineering**: turning a product goal into a software fact
 | :--- | :--- | :--- |
 | **[Hacky](https://github.com/seeko-codes/Hacky)** | A conversational AI that finds your next teammate, mentor, or connection at a hackathon. A custom knit mascot, rich matching cards, and a carefully crafted React interface. **[Try it ↗](https://mlhacky.com)** | **~32 hours** of product commits · Knight Hacks IX · team of 3 |
 | **[Étude](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days)** | A piano tutor and rhythm game for a real 88-key piano. An adaptive skill graph guides practice; MIDI input gives millisecond timing feedback. Built with Eric Zhang and Sharan Santharam. **[Play ↗](https://web-kohl-three-51.vercel.app)** | **~44 hours** · **Gator Hack V finalist** |
-| **[Donna](https://apps.apple.com/us/app/donna-social-intelligence/id6760481634)** | An iOS app that helps people at UCF connect with the right person for what they want to do. | **On the App Store** |
+| **[Donna](https://apps.apple.com/us/app/donna-social-intelligence/id6760481634)** | An iOS app connecting people at UCF. I'm on the **founding development team**, building UI and backend logic and leading the current refactor toward an architecture agents can navigate and extend. | **On the App Store** |
 
 <sub>Build times are elapsed repository windows, rounded to the nearest hour. Hacky was a 36-hour hackathon; its later README edits are excluded. [Dates and method](BUILD_NOTES.md).</sub>
 
