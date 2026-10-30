@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250" role="img" aria-labelledby="title desc">
+  <title id="title">Andrés Araque</title>
+  <desc id="desc">Major: Mathematics at UCF. Projects: Ultralearn, Hacky, Étude, Donna, content-factory, and seeko-stack.</desc>
+  <rect width="1100" height="250" fill="#1b1918"/>
+  <rect x="1" y="25" width="1098" height="224" rx="8" fill="none" stroke="#d78b6f" stroke-width="2"/>
+  <rect x="25" y="7" width="295" height="40" fill="#1b1918"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="39" y="36" fill="#e5a58b" font-size="29" font-weight="600">Andrés Araque</text>
+    <g font-size="24">
+      <g fill="#b7afa8">
+        <text x="39" y="103">Major</text>
+        <text x="39" y="162">Projects</text>
+      </g>
+      <g fill="#eee9e3">
+        <text x="210" y="103">Mathematics @ UCF</text>
+        <text x="210" y="162">Ultralearn</text>
+        <text x="520" y="162">Hacky</text>
+        <text x="820" y="162">Étude</text>
+        <text x="210" y="208">Donna</text>
+        <text x="520" y="208">content-factory</text>
+        <text x="820" y="208">seeko-stack</text>
+      </g>
+    </g>
+  </g>
+</svg>

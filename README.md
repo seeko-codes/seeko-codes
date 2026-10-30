@@ -1,7 +1,13 @@
+<p>
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/terminal-mobile.svg" />
-  <img src="assets/terminal.svg" width="100%" alt="Andrés Araque. Major: Mathematics at UCF. Projects: Ultralearn, Hacky, Étude, Donna, content-factory, and seeko-stack. I'm Andrés, a Mathematics student at UCF building ambitious products with AI agents. My focus is agentic engineering: designing the context, tools, and verification loops that let agents deliver substantial software quickly without lowering the bar." />
+  <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg" />
+  <img src="assets/profile-header.svg" width="100%" alt="Andrés Araque. Major: Mathematics at UCF. Projects: Ultralearn, Hacky, Étude, Donna, content-factory, and seeko-stack." />
 </picture>
+</p>
+
+I'm Andrés, a Mathematics student at UCF building ambitious products with AI agents.
+
+My focus is agentic engineering: designing the context, tools, and verification loops that let agents deliver substantial software quickly without lowering the bar.
 
 <p><samp><a href="resume/Andres_Araque_Resume.pdf">Résumé ↗</a> · <a href="mailto:pipe.araque@gmail.com">Email</a></samp></p>
 
