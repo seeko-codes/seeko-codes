@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Andrés Araque</title>
+  <desc id="desc">I build polished products and the agent systems that ship them.</desc>
+  <rect width="1280" height="360" rx="16" fill="#f5f3ed"/>
+  <g stroke="#ddd9cf" stroke-width="1">
+    <path d="M890 0v360M970 0v360M1050 0v360M1130 0v360M1210 0v360M850 70h430M850 150h430M850 230h430M850 310h430"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#202725">
+    <text x="58" y="61" font-size="14" letter-spacing="3" fill="#54705e">PRODUCTS / AGENTS / LEARNING</text>
+    <text x="54" y="145" font-size="66" font-weight="700" letter-spacing="-3">Andrés Araque</text>
+    <text x="58" y="209" font-size="28" letter-spacing="-.5">I build polished products and</text>
+    <text x="58" y="247" font-size="28" letter-spacing="-.5">the agent systems that ship them.</text>
+    <text x="58" y="311" font-size="15" fill="#626d65">AGENTIC ENGINEERING</text>
+    <circle cx="278" cy="306" r="3" fill="#bb5a36"/>
+    <text x="294" y="311" font-size="15" fill="#626d65">UCF MATHEMATICS</text>
+  </g>
+  <g fill="none" stroke="#456a54" stroke-width="2">
+    <path d="M890 230l80-80 80 80 80-160 80 80M970 150l160-80M1050 230l160-80"/>
+    <circle cx="890" cy="230" r="12" fill="#f5f3ed"/>
+    <circle cx="970" cy="150" r="17" fill="#456a54"/>
+    <circle cx="1050" cy="230" r="12" fill="#f5f3ed"/>
+    <circle cx="1130" cy="70" r="12" fill="#f5f3ed"/>
+    <circle cx="1210" cy="150" r="12" fill="#f5f3ed"/>
+  </g>
+  <circle cx="970" cy="150" r="5" fill="#f5f3ed"/>
+  <circle cx="1050" cy="230" r="5" fill="#bb5a36"/>
+</svg>
