@@ -1,32 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-labelledby="title desc">
   <title id="title">Andrés Araque</title>
-  <desc id="desc">Agentic engineering. Mathematics at UCF. Building Ultralearn and content-factory. Founding development team at Donna. Tooling: seeko-stack.</desc>
-  <rect x=".5" y=".5" width="1099" height="369" rx="8" fill="#10151c" stroke="#303b47"/>
+  <desc id="desc">Major: Mathematics at UCF. Projects: Ultralearn, Hacky, Étude, Donna, content-factory, and seeko-stack.</desc>
+  <rect width="1100" height="260" fill="#1b1918"/>
+  <rect x="1" y="25" width="1098" height="234" rx="8" fill="none" stroke="#d78b6f" stroke-width="2"/>
+  <rect x="25" y="7" width="295" height="40" fill="#1b1918"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="44" y="67" fill="#e6edf3" font-size="34" font-weight="600">Andrés Araque</text>
-    <text x="1056" y="65" text-anchor="end" fill="#9eafbf" font-size="22">seeko-codes</text>
-    <path d="M44 94H1056" stroke="#354353"/>
+    <text x="39" y="36" fill="#e5a58b" font-size="29" font-weight="600">Andrés Araque</text>
     <g font-size="24">
-      <g fill="#e9b5a7">
-        <text x="44" y="143">Focus</text>
-        <text x="44" y="189">Study</text>
-        <text x="44" y="235">Build</text>
-        <text x="44" y="281">Team</text>
-        <text x="44" y="327">Tools</text>
+      <g fill="#b7afa8">
+        <text x="39" y="103">Major</text>
+        <text x="39" y="162">Projects</text>
       </g>
-      <g fill="#7f91a5" aria-hidden="true">
-        <text x="154" y="143">...........</text>
-        <text x="154" y="189">...........</text>
-        <text x="154" y="235">...........</text>
-        <text x="154" y="281">...........</text>
-        <text x="154" y="327">...........</text>
-      </g>
-      <g fill="#e6edf3">
-        <text x="340" y="143">Agentic engineering</text>
-        <text x="340" y="189">Mathematics @ UCF</text>
-        <text x="340" y="235">Ultralearn + content-factory</text>
-        <text x="340" y="281">Donna / founding development</text>
-        <text x="340" y="327">seeko-stack</text>
+      <g fill="#eee9e3">
+        <text x="210" y="103">Mathematics @ UCF</text>
+        <text x="210" y="162">Ultralearn</text>
+        <text x="520" y="162">Hacky</text>
+        <text x="820" y="162">Étude</text>
+        <text x="210" y="208">Donna</text>
+        <text x="520" y="208">content-factory</text>
+        <text x="820" y="208">seeko-stack</text>
       </g>
     </g>
   </g>
