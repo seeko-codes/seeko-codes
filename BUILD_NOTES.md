@@ -1,6 +1,6 @@
 # Hackathon build windows
 
-These are elapsed repository windows, not estimates of active hours worked. Team projects include the team's commits. Andrés requested repository timestamps as the basis for the displayed times.
+Displayed times measure the elapsed repository build window, rounded to the nearest hour. Team projects include the team's commits. These windows do not measure active hours worked.
 
 ## Hacky: approximately 32 hours
 
@@ -19,5 +19,6 @@ These are elapsed repository windows, not estimates of active hours worked. Team
 - Elapsed window: **43 hours, 30 minutes, 36 seconds**.
 - This includes the submission handoff. It describes the repository's build and submission window.
 - Finalist result: confirmed by Andrés on October 29, 2026.
-- Team: Andrés Araque, Eric Zhang, and Sharan Santharam. The game, learning, and backend work are a shared result; no individual claim to every feature is implied.
+- Team: Andrés Araque, Eric Zhang, and Sharan Santharam. Andrés owned the entire learning architecture; Eric led the game and Sharan the backend. The build window describes the team result.
+- Ownership is confirmed by Andrés and supported by the repository's [development story](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/docs/story.md#chapter-9-andres-and-the-tutor-becoming-étude) and [learning-lane workflow](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/blob/main/docs/devpost.md).
 - [Source repository](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days) and its [commit history](https://github.com/Eric-Zhang-Developer/piano-arcade-gator-ai-days/commits/main/).
